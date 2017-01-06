@@ -5,7 +5,7 @@ import org.openqa.selenium.By;
 import com.hjianhui.appiumautotest.utils.AppiumUtil;
 
 /**
- * @author hjianhui
+ * @author hjianhui 
  * @description 在原生APP界面封装点击和输入操作
  *  
  * */
