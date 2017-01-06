@@ -1,0 +1,26 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "http://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"><head><title>TestNG Report</title><style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}</style></head><body><table><tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr><tr><th colspan="7">appiumautotest</th></tr><tr><td><a href="#t0">搜索</a></td><td class="num">0</td><td class="num">0</td><td class="num attn">1</td><td class="num">28,980</td><td></td><td></td></tr></table><table><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">appiumautotest</th></tr></tbody><tbody id="t0"><tr><th colspan="4">搜索 &#8212; failed</th></tr><tr class="failedeven"><td rowspan="1">com.hjianhui.appiumautotest.testcases.search.SearchPage_001_SearchDemo_Test</td><td><a href="#m0">searchDemo1</a></td><td rowspan="1">1482803307587</td><td rowspan="1">9975</td></tr></tbody></table><h2>搜索</h2><h3 id="m0">com.hjianhui.appiumautotest.testcases.search.SearchPage_001_SearchDemo_Test#searchDemo1</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>{KEYWORD=Java}</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">java.lang.AssertionError: 没有这个context:WEBVIEW_com.microsoft.bing
+	at com.hjianhui.appiumautotest.utils.AppiumUtil.switchWebview(AppiumUtil.java:394)
+	at com.hjianhui.appiumautotest.pageshelper.SearchWebviewPageHelper.enterWebview(SearchWebviewPageHelper.java:19)
+	at com.hjianhui.appiumautotest.testcases.search.SearchPage_001_SearchDemo_Test.searchDemo1(SearchPage_001_SearchDemo_Test.java:35)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: io.appium.java_client.NoSuchContextException: No such context found. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 101 milliseconds
+Build info: version: &apos;2.52.0&apos;, revision: &apos;4c2593cfc3689a7fcd7be52549167e5ccc93ad28&apos;, time: &apos;2016-02-11 11:22:43&apos;
+System info: host: &apos;SKY-20161021EAO&apos;, ip: &apos;192.168.56.1&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.8.0_101&apos;
+Driver info: io.appium.java_client.android.AndroidDriver
+Capabilities [{app=G:\eclipseworkspace\AppiumDataDriven\res\app\android\bing.apk, appPackage=com.microsoft.bing, networkConnectionEnabled=true, noReset=true, warnings={}, databaseEnabled=false, deviceName=17d6d0eb, platform=LINUX, appActivity=com.microsoft.clients.bing.app.MainActivity, desired={app=G:\eclipseworkspace\AppiumDataDriven\res\app\android\bing.apk, appPackage=com.microsoft.bing, appActivity=com.microsoft.clients.bing.app.MainActivity, noReset=true, platformVersion=4.4.4, automationName=Appium, sessionOverride=true, unicodeKeyboard=true, platformName=Android, deviceName=appium-test-avd, resetKeyboard=true}, platformVersion=5.0.1, webStorageEnabled=false, locationContextEnabled=false, automationName=Appium, browserName=Android, takesScreenshot=true, javascriptEnabled=true, sessionOverride=true, unicodeKeyboard=true, platformName=Android, resetKeyboard=true}]
+Session ID: cf5cf75c-4685-4d53-b557-7d5b37232e14
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:206)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:158)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:678)
+	at io.appium.java_client.DefaultGenericMobileDriver.execute(DefaultGenericMobileDriver.java:43)
+	at io.appium.java_client.AppiumDriver.execute(AppiumDriver.java:1)
+	at io.appium.java_client.android.AndroidDriver.execute(AndroidDriver.java:1)
+	at io.appium.java_client.AppiumDriver.context(AppiumDriver.java:545)
+	at com.hjianhui.appiumautotest.utils.AppiumUtil.switchWebview(AppiumUtil.java:391)
+	... 22 more
+... Removed 21 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p></body></html>

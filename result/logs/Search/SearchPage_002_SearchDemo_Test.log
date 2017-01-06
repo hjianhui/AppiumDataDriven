@@ -1,0 +1,20 @@
+[2016-08-23 19:06:44] [INFO] 必应搜索APP已经启动
+[2016-08-23 19:06:44] [INFO] searchDemo2 测试用例开始执行！
+[2016-08-23 19:06:47] [INFO] 点击元素： id: com.microsoft.bing:id/tutorial_finish_button
+[2016-08-23 19:06:54] [INFO] 点击元素： name: 拒绝
+[2016-08-23 19:06:55] [INFO] 点击元素： id: android:id/button2
+[2016-08-23 19:06:58] [INFO] 点击元素： id: com.microsoft.bing:id/search
+[2016-08-23 19:07:02] [INFO] 在元素： id: com.microsoft.bing:id/search_text_field输入内容：Java
+[2016-08-23 19:07:04] [INFO] 点击元素： id: com.microsoft.bing:id/opal_as_web
+[2016-08-23 19:07:05] [INFO] 正在等待搜索结果webview页面加载
+[2016-08-23 19:07:05] [INFO] 开始查找元素[By.xpath: .//*[@id='b_results']/li[1]/div/ul/li[2]/span]
+[2016-08-23 19:07:05] [INFO] 找到了元素 [By.xpath: .//*[@id='b_results']/li[1]/div/ul/li[2]/span]
+[2016-08-23 19:07:05] [INFO] 开始查找元素[By.xpath: .//*[@id='b_results']/li[1]/div/ul/li[4]/a]
+[2016-08-23 19:07:05] [INFO] 找到了元素 [By.xpath: .//*[@id='b_results']/li[1]/div/ul/li[4]/a]
+[2016-08-23 19:07:05] [INFO] 开始查找元素[By.xpath: //*[@class='deeplink_title']]
+[2016-08-23 19:07:06] [INFO] 找到了元素 [By.xpath: //*[@class='deeplink_title']]
+[2016-08-23 19:07:06] [INFO] 搜索结果webview加载完毕
+[2016-08-23 19:07:06] [INFO] scroll view element
+[2016-08-23 19:07:06] [INFO] searchDemo2 测试用例执行成功！
+[2016-08-23 19:07:06] [INFO] 执行成功的用例 = searchDemo2
+[2016-08-23 19:07:08] [INFO] Excel报告已经生成，请查看：[D:\eclipseworkspace\AppiumDataDriven\test-output\excelReports\TestReport_2016-08-23_19-07-appiumautotest.xlsx]

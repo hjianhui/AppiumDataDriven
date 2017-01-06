@@ -1,0 +1,11 @@
+[2016-08-23 15:10:00] [INFO] 必应搜索APP已经启动
+[2016-08-23 15:10:00] [INFO] uiCheck 测试用例开始执行！
+[2016-08-23 15:10:04] [INFO] 点击元素： id: com.microsoft.bing:id/tutorial_finish_button
+[2016-08-23 15:10:07] [INFO] 点击元素： name: 拒绝
+[2016-08-23 15:10:09] [INFO] 点击元素： id: android:id/button2
+[2016-08-23 15:10:09] [INFO] 正在验证APP首页文本内容是否正确
+[2016-08-23 15:10:10] [INFO] 找到了期望的文字: [图片故事]
+[2016-08-23 15:10:10] [INFO] 验证APP首页文本内容完成
+[2016-08-23 15:10:10] [INFO] uiCheck 测试用例执行成功！
+[2016-08-23 15:10:11] [INFO] 执行成功的用例 = uiCheck
+[2016-08-23 15:10:13] [INFO] Excel报告已经生成，请查看：[D:\eclipseworkspace\AppiumDataDriven\test-output\excelReports\TestReport_2016-08-23_15-10-appium.xlsx]
